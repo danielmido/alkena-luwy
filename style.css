@@ -89,8 +89,8 @@ iframe {
 /* Handphone Modern */
 @media (max-width:576px) {
   iframe {
-    width: 320px;
-    height: 180px;
+    width: 360px;
+    height: 202.5px;
     display: block;
     margin: 0 auto;
   }
