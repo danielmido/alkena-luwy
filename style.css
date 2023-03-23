@@ -86,8 +86,44 @@ iframe {
   }
 }
 
-/* Handphone Modern */
+/* Handphone */
 @media (max-width:576px) {
+  iframe {
+    width: 440px;
+    height: 247.5px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:440px) {
+  iframe {
+    width: 420px;
+    height: 236.25px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:420px) {
+  iframe {
+    width: 400px;
+    height: 225px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:400px) {
+  iframe {
+    width: 380px;
+    height: 213.75px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:380px) {
   iframe {
     width: 360px;
     height: 202.5px;
@@ -96,11 +132,10 @@ iframe {
   }
 }
 
-/* Handphone Kecil */
 @media (max-width:360px) {
   iframe {
-    width: 240px;
-    height: 135px;
+    width: 340px;
+    height: 191.25px;
     display: block;
     margin: 0 auto;
   }
